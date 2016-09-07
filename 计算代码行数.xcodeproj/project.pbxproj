@@ -1,0 +1,258 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FAB325119E94BEC0075218E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FAB325019E94BEC0075218E /* Foundation.framework */; };
+		3FAB325419E94BEC0075218E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB325319E94BEC0075218E /* main.m */; };
+		3FAB325819E94BEC0075218E /* ______.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3FAB325719E94BEC0075218E /* ______.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3FAB324B19E94BEC0075218E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				3FAB325819E94BEC0075218E /* ______.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3FAB324D19E94BEC0075218E /* 计算代码行数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "计算代码行数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FAB325019E94BEC0075218E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3FAB325319E94BEC0075218E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FAB325619E94BEC0075218E /* 计算代码行数-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "计算代码行数-Prefix.pch"; sourceTree = "<group>"; };
+		3FAB325719E94BEC0075218E /* ______.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "______.1"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FAB324A19E94BEC0075218E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FAB325119E94BEC0075218E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FAB324419E94BEC0075218E = {
+			isa = PBXGroup;
+			children = (
+				3FAB325219E94BEC0075218E /* 计算代码行数 */,
+				3FAB324F19E94BEC0075218E /* Frameworks */,
+				3FAB324E19E94BEC0075218E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FAB324E19E94BEC0075218E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FAB324D19E94BEC0075218E /* 计算代码行数 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FAB324F19E94BEC0075218E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FAB325019E94BEC0075218E /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FAB325219E94BEC0075218E /* 计算代码行数 */ = {
+			isa = PBXGroup;
+			children = (
+				3FAB325319E94BEC0075218E /* main.m */,
+				3FAB325719E94BEC0075218E /* ______.1 */,
+				3FAB325519E94BEC0075218E /* Supporting Files */,
+			);
+			path = "计算代码行数";
+			sourceTree = "<group>";
+		};
+		3FAB325519E94BEC0075218E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FAB325619E94BEC0075218E /* 计算代码行数-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FAB324C19E94BEC0075218E /* 计算代码行数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FAB325B19E94BEC0075218E /* Build configuration list for PBXNativeTarget "计算代码行数" */;
+			buildPhases = (
+				3FAB324919E94BEC0075218E /* Sources */,
+				3FAB324A19E94BEC0075218E /* Frameworks */,
+				3FAB324B19E94BEC0075218E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "计算代码行数";
+			productName = "计算代码行数";
+			productReference = 3FAB324D19E94BEC0075218E /* 计算代码行数 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FAB324519E94BEC0075218E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = student;
+			};
+			buildConfigurationList = 3FAB324819E94BEC0075218E /* Build configuration list for PBXProject "计算代码行数" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3FAB324419E94BEC0075218E;
+			productRefGroup = 3FAB324E19E94BEC0075218E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FAB324C19E94BEC0075218E /* 计算代码行数 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FAB324919E94BEC0075218E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FAB325419E94BEC0075218E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3FAB325919E94BEC0075218E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3FAB325A19E94BEC0075218E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3FAB325C19E94BEC0075218E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "计算代码行数/计算代码行数-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FAB325D19E94BEC0075218E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "计算代码行数/计算代码行数-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FAB324819E94BEC0075218E /* Build configuration list for PBXProject "计算代码行数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FAB325919E94BEC0075218E /* Debug */,
+				3FAB325A19E94BEC0075218E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FAB325B19E94BEC0075218E /* Build configuration list for PBXNativeTarget "计算代码行数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FAB325C19E94BEC0075218E /* Debug */,
+				3FAB325D19E94BEC0075218E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FAB324519E94BEC0075218E /* Project object */;
+}
