@@ -31,8 +31,8 @@
 		3FAB325319E94BEC0075218E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3FAB325619E94BEC0075218E /* 计算代码行数-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "计算代码行数-Prefix.pch"; sourceTree = "<group>"; };
 		3FAB325719E94BEC0075218E /* ______.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "______.1"; sourceTree = "<group>"; };
-		470C94291D7FCEA900AD7365 /* 修改方式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "修改方式.png"; sourceTree = "<group>"; };
 		470C942A1D7FCEB300AD7365 /* 使用方式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "使用方式.png"; sourceTree = "<group>"; };
+		470C942B1D7FD02E00AD7365 /* 修改方式.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "修改方式.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,7 @@
 			children = (
 				3FAB325619E94BEC0075218E /* 计算代码行数-Prefix.pch */,
 				470C942A1D7FCEB300AD7365 /* 使用方式.png */,
-				470C94291D7FCEA900AD7365 /* 修改方式.png */,
+				470C942B1D7FD02E00AD7365 /* 修改方式.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
